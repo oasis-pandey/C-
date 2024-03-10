@@ -29,5 +29,10 @@ int main(){
     //printing doubles
     std::cout <<GPA<<"\n";
 
+    // If you use const then it becomes read only and its value cannot be altered.
+    const double PI=3.14159;
+    // double PI=100; If you run this , you'll get confilicting declaration error!
+    std::cout << PI;
+    
     return 0;
 }
